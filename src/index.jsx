@@ -1,9 +1,9 @@
-import React, { StrictMode } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import FirstComponent from './FirstComponent';
+import CounterApp from './components/CounterApp';
 
 const root = document.querySelector('#root');
-ReactDOM.render(<FirstComponent />, root);
+ReactDOM.render(<CounterApp value={222}/>, root);
 
 
